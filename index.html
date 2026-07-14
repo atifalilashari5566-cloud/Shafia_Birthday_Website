@@ -1,36 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Happy Birthday Muskan ❤️</title>
 
 <link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-<div id="hearts"></div>
-<div id="flowers"></div>
+<div id="loading-screen">
 
-<section class="intro">
+<div class="loader">
 
-<h1>🎂 Happy Birthday 🎂</h1>
+<h1>
 
-<h2>Muskan ❤️</h2>
+Happy Birthday
+
+</h1>
+
+<h2>
+
+Muskan ❤️
+
+</h2>
 
 <p>
 
-Today is not just another day...
+Preparing Something Special...
 
-It is the most beautiful day,
+</p>
 
-because it belongs to
+</div>
 
-someone truly special.
+</div>
 
-✨🌹❤️
+<div id="stars"></div>
+
+<div id="hearts"></div>
+
+<div id="flowers"></div>
+
+<section id="welcome" class="scene active">
+
+<div class="glass">
+
+<h1>
+
+🎂 Happy Birthday 🎂
+
+</h1>
+
+<h2>
+
+Muskan ❤️
+
+</h2>
+
+<p>
+
+Today isn't just another day...
+
+It's the day someone truly special came into this world.
 
 </p>
 
@@ -40,62 +83,115 @@ Open Your Surprise 🎁
 
 </button>
 
-</section>
+</div>
 
-<section id="story" class="hidden">
+</section><section id="gallery" class="scene">
 
-<h1>🌸 Dear Muskan 🌸</h1>
+<div class="glass gallery-box">
 
-<p>
+<h1>Beautiful Memories ❤️</h1>
 
-May your smile always stay beautiful.
+<div class="slider">
 
-May every dream come true.
+<img src="assets/muskan1.jpg" class="slide active">
 
-May Allah always protect you,
+<img src="assets/muskan2.jpg" class="slide">
 
-give you happiness,
+<img src="assets/muskan3.jpg" class="slide">
 
-peace,
+</div>
 
-success,
+<p class="gallery-text">
 
-and endless blessings.
-
-❤️
+Every smile of yours makes the world brighter. ✨
 
 </p>
 
-<div class="photo">
-
-<img src="photo1.jpg">
-
 </div>
-
-<div class="photo">
-
-<img src="photo2.jpg">
-
-</div>
-
-<div class="photo">
-
-<img src="photo3.jpg">
-
-</div>
-
-<h2>
-
-✨ More Beautiful Memories Coming...
-
-</h2>
 
 </section>
 
-<audio id="music" loop>
+<section id="letter" class="scene">
 
-<source src="music.mp3" type="audio/mpeg">
+<div class="glass letter-box">
 
+<h1>💌 A Special Letter</h1>
+
+<p id="typing">
+
+Dear Muskan,
+
+Happy Birthday! 🎂
+
+May Allah bless you with happiness, success, good health and endless smiles.
+
+May every dream of yours come true.
+
+Always keep smiling because your smile is truly beautiful.
+
+✨ Have a wonderful birthday! ✨
+
+</p>
+
+<button id="nextBtn">
+
+Continue ❤️
+
+</button>
+
+</div>
+
+</section>
+
+<section id="gift" class="scene">
+
+<div class="glass">
+
+<h1>🎁 One Last Surprise</h1>
+
+<div id="giftBox">
+
+🎁
+
+</div>
+
+<p>
+
+Tap the gift to see your final birthday surprise.
+
+</p>
+
+</div>
+
+</section><section id="final" class="scene">
+
+<div class="glass final-box">
+
+<h1>🎆 Happy Birthday Muskan ❤️</h1>
+
+<h2>Stay Happy • Stay Blessed • Keep Smiling 🌹</h2>
+
+<p>
+
+May your life always be filled with love, happiness,
+peace and beautiful memories.
+
+Thank you for being such a wonderful person.
+
+✨ Wishing you the happiest birthday ever! ✨
+
+</p>
+
+</div>
+
+</section>
+
+<div id="fireworks"></div>
+
+<div id="confetti"></div>
+
+<audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
 </audio>
 
 <script src="script.js"></script>
