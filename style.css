@@ -95,3 +95,24 @@ opacity:1;
 transform:scale(1);
 }
 }
+@keyframes floatUp {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(-120vh);
+        opacity: 0;
+    }
+}
+
+@keyframes fallDown {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(120vh);
+        opacity: 0;
+    }
+}
